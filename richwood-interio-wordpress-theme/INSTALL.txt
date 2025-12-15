@@ -1,0 +1,147 @@
+=====================================================
+RICHWOOD INTERIO WORDPRESS THEME
+Installation & Setup Guide
+=====================================================
+
+QUICK START
+-----------
+1. Upload theme to WordPress
+2. Activate theme
+3. Create menus
+4. Set front page
+5. Customize contact info
+
+DETAILED INSTALLATION
+---------------------
+
+STEP 1: UPLOAD THEME
+- Compress the 'richwood-interio-wordpress-theme' folder as a ZIP file
+- Log in to your WordPress admin panel
+- Go to Appearance > Themes > Add New
+- Click "Upload Theme" button
+- Choose the ZIP file and click "Install Now"
+- Click "Activate" after installation
+
+OR
+
+- Upload the theme folder via FTP to /wp-content/themes/
+- Go to Appearance > Themes in WordPress admin
+- Find "Richwood Interio" and click "Activate"
+
+STEP 2: CREATE NAVIGATION MENUS
+- Go to Appearance > Menus
+- Create a new menu called "Primary Menu"
+- Add these pages:
+  * Home
+  * About
+  * Services
+  * Portfolio
+  * Gallery
+  * Pricing
+  * Factory Details
+  * Testimonials
+  * Blog
+  * Contact
+- Assign to "Primary Menu" location
+- Save menu
+
+- Create another menu called "Footer Menu"
+- Add About, Services, Portfolio, Contact
+- Assign to "Footer Menu" location
+- Save menu
+
+STEP 3: SET FRONT PAGE
+- Create a new page titled "Home"
+- Go to Settings > Reading
+- Select "A static page" for homepage
+- Choose "Home" as front page
+- Save changes
+
+STEP 4: CONFIGURE CONTACT INFO
+- Go to Appearance > Customize
+- Click on "Contact Information"
+- Fill in:
+  * Phone Number 1: Your primary phone
+  * Phone Number 2: Your secondary phone
+  * Email Address: Your email
+  * Facebook URL: Your Facebook page
+  * Instagram URL: Your Instagram profile
+  * LinkedIn URL: Your LinkedIn profile
+  * YouTube URL: Your YouTube channel
+- Click "Publish"
+
+STEP 5: UPLOAD LOGO
+- Go to Appearance > Customize
+- Click on "Site Identity"
+- Click "Select logo"
+- Upload your logo (recommended: 400x100px)
+- Click "Publish"
+
+STEP 6: CREATE PAGES
+Create these pages with appropriate content:
+- Home (already created in Step 3)
+- About
+- Services
+- Portfolio
+- Gallery
+- Pricing
+- Factory Details
+- Testimonials
+- Contact
+
+For Blog:
+- Go to Settings > Reading
+- Set "Posts page" to a page titled "Blog"
+
+STEP 7: ADD PAGES TO MENU
+- Go to Appearance > Menus
+- Add all created pages to your Primary Menu
+- Arrange in desired order
+- Save menu
+
+TROUBLESHOOTING
+---------------
+
+Issue: Menu not showing
+Solution: Make sure you've assigned the menu to the correct location (Primary Menu)
+
+Issue: Front page not showing correctly
+Solution: Verify Settings > Reading has "Home" set as front page
+
+Issue: Contact info not updating
+Solution: Clear browser cache and check Customizer settings
+
+Issue: Logo not displaying
+Solution: Upload logo via Customizer > Site Identity, not Media Library directly
+
+Issue: Mobile menu not working
+Solution: Clear browser cache, JavaScript may be cached
+
+CUSTOMIZATION
+-------------
+
+Colors: Edit style.css :root section
+Fonts: Modify @import in style.css
+Animations: Edit assets/css/custom.css
+Mobile Menu: Modify assets/js/main.js
+
+SUPPORT
+-------
+
+For theme support:
+- Check README.md for detailed documentation
+- Review CONVERSION-SUMMARY.md for technical details
+- Contact Richwood Interio for business inquiries
+
+REQUIREMENTS
+------------
+
+- WordPress 5.0 or higher
+- PHP 7.4 or higher
+- Modern web browser
+- Internet connection (for Tailwind CSS CDN)
+
+VERSION: 1.0.0
+LICENSE: GPL v2 or later
+
+=====================================================
