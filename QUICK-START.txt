@@ -1,0 +1,126 @@
+═══════════════════════════════════════════════════════════════
+   RICHWOOD INTERIO WORDPRESS - QUICK START REFERENCE
+═══════════════════════════════════════════════════════════════
+
+🔐 ADMIN ACCESS
+─────────────────────────────────────────────────────────────
+Login URL:  http://yourdomain.com/wp-admin
+Username:   admin
+Password:   Admin@2024!
+Email:      info@richwoodinterio.com
+
+
+📦 FILES YOU NEED
+─────────────────────────────────────────────────────────────
+✓ WordPress Core (download from wordpress.org)
+✓ richwood-interio-wordpress-theme folder (theme files)
+✓ wp-config.php (database configuration)
+✓ richwood_wordpress.sql (database import)
+✓ .htaccess (permalink rules)
+
+
+🚀 3-STEP INSTALLATION
+─────────────────────────────────────────────────────────────
+
+STEP 1: Download WordPress
+→ Visit: wordpress.org/download
+→ Download & extract ZIP
+
+STEP 2: Merge & Upload
+→ Copy theme to: wp-content/themes/
+→ Copy wp-config.php to root
+→ Edit wp-config.php with YOUR database details:
+  • DB_NAME: your_database_name
+  • DB_USER: your_database_username
+  • DB_PASSWORD: your_database_password
+→ Upload all files to hosting (public_html)
+
+STEP 3: Import Database
+→ cPanel → phpMyAdmin
+→ Select your database
+→ Click Import tab
+→ Choose: richwood_wordpress.sql
+→ Click Go
+→ Update URLs in wp_options table:
+  • siteurl: http://yourdomain.com
+  • home: http://yourdomain.com
+
+
+✅ VERIFY INSTALLATION
+─────────────────────────────────────────────────────────────
+Visit: http://yourdomain.com → Should show homepage
+Visit: http://yourdomain.com/wp-admin → Should show login
+
+
+📝 IMPORTANT SETTINGS
+─────────────────────────────────────────────────────────────
+wp-config.php Database Settings:
+  define('DB_NAME', 'richwood_wp');
+  define('DB_USER', 'richwood_user');
+  define('DB_PASSWORD', 'RichwoodDB@2024!');
+  define('DB_HOST', 'localhost');
+
+⚠️  UPDATE THESE WITH YOUR ACTUAL HOSTING DATABASE INFO!
+
+
+🎨 THEME ALREADY CONFIGURED
+─────────────────────────────────────────────────────────────
+✓ Theme: Richwood Interio (activated)
+✓ Menus: Primary & Footer (created)
+✓ Pages: Home, About, Services, etc. (created)
+✓ Front Page: Set to "Home"
+✓ Posts Page: Set to "Blog"
+✓ Contact Info: Pre-filled (customize in Appearance > Customize)
+
+
+🔧 COMMON FIXES
+─────────────────────────────────────────────────────────────
+Database Connection Error:
+  → Check wp-config.php credentials
+
+Pages Show 404:
+  → Settings > Permalinks > Save Changes
+
+Can't Login:
+  → Verify: admin / Admin@2024! (case sensitive)
+
+Images Not Loading:
+  → Check: wp-content/themes/richwood-interio-wordpress-theme/assets/images/
+
+
+📞 POST-INSTALL CHECKLIST
+─────────────────────────────────────────────────────────────
+□ Change admin password
+□ Update admin email
+□ Upload logo (Appearance > Customize)
+□ Add content to pages
+□ Update contact info (Appearance > Customize > Contact Information)
+□ Test all menu links
+□ Enable SSL/HTTPS (if available)
+□ Install security plugin (Wordfence recommended)
+
+
+💾 BACKUP BEFORE CHANGES
+─────────────────────────────────────────────────────────────
+Database: phpMyAdmin > Export
+Files: cPanel > File Manager > Compress > Download
+
+
+🎯 FILE LOCATIONS
+─────────────────────────────────────────────────────────────
+Theme: wp-content/themes/richwood-interio-wordpress-theme/
+Config: wp-config.php (root)
+Uploads: wp-content/uploads/
+Plugins: wp-content/plugins/
+
+
+⚡ NEED HELP?
+─────────────────────────────────────────────────────────────
+Read: DEPLOYMENT-GUIDE.md (detailed instructions)
+Theme Docs: README.md in theme folder
+Conversion Info: CONVERSION-SUMMARY.md
+
+
+═══════════════════════════════════════════════════════════════
+        Site will work immediately after Step 3!
+═══════════════════════════════════════════════════════════════
